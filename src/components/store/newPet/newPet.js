@@ -3,7 +3,7 @@ import template from './newPet.html';
 export default {
   template,
   bindings: {
-    store: '<'
+    store: '='
   },
   controller
 };

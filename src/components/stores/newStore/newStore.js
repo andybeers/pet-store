@@ -3,7 +3,7 @@ import template from './newStore.html';
 export default {
   template,
   bindings: {
-    stores: '<',
+    stores: '=',
     add: '<'
   },
   controller
